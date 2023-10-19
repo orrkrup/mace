@@ -134,7 +134,6 @@ dmypy.json
 .vscode/
 
 # Data
-*.pt
 data/
 wandb/
 dataset_root
