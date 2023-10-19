@@ -10,7 +10,7 @@ Tested in a python `virtualenv`, install dependencies using `pip install -r requ
 Follow the installation instructions in https://developer.nvidia.com/isaac-gym to download IsaacGym, and once downloaded, use the instructions in the attached documnetation to install. This code was tested with IsaacGym Preview Release 4 only. 
 
 ### For VAE environments: 
-VAE environments require the 3D SoftIntroVAE code, available <a href="https://github.com/orrkrup/3d-soft-intro-vae-pytorch"> here </a>. Clone the repository, and in its main directory, run `pip install -e .`.  
+VAE environments require the 3D SoftIntroVAE code, available <a href="https://github.com/orrkrup/3d-soft-intro-vae-pytorch">here</a>. Clone the repository, and in its main directory, run `pip install -e .`.  
 
 ### ShapeNet 
 Running the ShapeNet Airplane environment also requires the ShapeNet dataset, or at least its Airplane class, to be located in `./shapenet_root/` (or at any other location specified by the `data_dir` argument in the `config_file`). The dataset can be obtained from the <a href="https://shapenet.org/">ShapeNet website</a>. 
